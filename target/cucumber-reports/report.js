@@ -8,9 +8,9 @@ formatter.feature({
 });
 formatter.scenarioOutline({
   "line": 4,
-  "name": "Compare response of requests from File1 and File2",
+  "name": "Compare response when **\u003cScenario\u003e ** from files : File1 \u003d \u003cFirstFile\u003e and File2 \u003d  \u003cSecondFile\u003e",
   "description": "",
-  "id": "to-compare-2api-responses(http/https);compare-response-of-requests-from-file1-and-file2",
+  "id": "to-compare-2api-responses(http/https);compare-response-when-**\u003cscenario\u003e-**-from-files-:-file1-\u003d-\u003cfirstfile\u003e-and-file2-\u003d--\u003csecondfile\u003e",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -34,40 +34,94 @@ formatter.examples({
   "line": 9,
   "name": "",
   "description": "",
-  "id": "to-compare-2api-responses(http/https);compare-response-of-requests-from-file1-and-file2;",
+  "id": "to-compare-2api-responses(http/https);compare-response-when-**\u003cscenario\u003e-**-from-files-:-file1-\u003d-\u003cfirstfile\u003e-and-file2-\u003d--\u003csecondfile\u003e;",
   "rows": [
     {
       "cells": [
+        "Scenario",
         "FirstFile",
         "SecondFile"
       ],
       "line": 10,
-      "id": "to-compare-2api-responses(http/https);compare-response-of-requests-from-file1-and-file2;;1"
+      "id": "to-compare-2api-responses(http/https);compare-response-when-**\u003cscenario\u003e-**-from-files-:-file1-\u003d-\u003cfirstfile\u003e-and-file2-\u003d--\u003csecondfile\u003e;;1"
     },
     {
-      "cells": [
-        "dataTables/TestData.xlsx",
-        "dataTables/TestData2.xlsx"
+      "comments": [
+        {
+          "line": 11,
+          "value": "#\t|Files have same request urls|dataTables/FileAB_identical.xlsx|dataTables/FileAB_identical.xlsx|"
+        },
+        {
+          "line": 12,
+          "value": "#\t|Files have different request urls but same response|dataTables/FileAB_identical.xlsx|dataTables/SamResponseAsFileAB_identical.xlsx|"
+        },
+        {
+          "line": 13,
+          "value": "#\t|Files have different request urls different response|dataTables/FileAB_identical.xlsx|dataTables/DifferentResponse.xlsx|"
+        },
+        {
+          "line": 14,
+          "value": "#\t|File request urls count are not same ex. File1 contains 5 urls and File2 contains 3urls|dataTables/FileAB_identical.xlsx|dataTables/ReqUrlCountMismatch.xlsx|"
+        },
+        {
+          "line": 15,
+          "value": "#\t|No urls are present in both file|dataTables/BlankFileB.xlsx|dataTables/BlankFileB.xlsx|"
+        },
+        {
+          "line": 16,
+          "value": "#\t|Url patter is not valid|dataTables/InvalidUrlPattern.xlsx|dataTables/InvalidUrlPattern.xlsx|"
+        }
       ],
-      "line": 11,
-      "id": "to-compare-2api-responses(http/https);compare-response-of-requests-from-file1-and-file2;;2"
+      "cells": [
+        "File contains 1000 request urls",
+        "dataTables/1000RequestFileA.xlsx",
+        "dataTables/1000RequestFileB.xlsx"
+      ],
+      "line": 17,
+      "id": "to-compare-2api-responses(http/https);compare-response-when-**\u003cscenario\u003e-**-from-files-:-file1-\u003d-\u003cfirstfile\u003e-and-file2-\u003d--\u003csecondfile\u003e;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 109838077,
+  "duration": 82055,
   "status": "passed"
 });
 formatter.before({
-  "duration": 45753,
+  "duration": 34103,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 11,
-  "name": "Compare response of requests from File1 and File2",
+  "comments": [
+    {
+      "line": 11,
+      "value": "#\t|Files have same request urls|dataTables/FileAB_identical.xlsx|dataTables/FileAB_identical.xlsx|"
+    },
+    {
+      "line": 12,
+      "value": "#\t|Files have different request urls but same response|dataTables/FileAB_identical.xlsx|dataTables/SamResponseAsFileAB_identical.xlsx|"
+    },
+    {
+      "line": 13,
+      "value": "#\t|Files have different request urls different response|dataTables/FileAB_identical.xlsx|dataTables/DifferentResponse.xlsx|"
+    },
+    {
+      "line": 14,
+      "value": "#\t|File request urls count are not same ex. File1 contains 5 urls and File2 contains 3urls|dataTables/FileAB_identical.xlsx|dataTables/ReqUrlCountMismatch.xlsx|"
+    },
+    {
+      "line": 15,
+      "value": "#\t|No urls are present in both file|dataTables/BlankFileB.xlsx|dataTables/BlankFileB.xlsx|"
+    },
+    {
+      "line": 16,
+      "value": "#\t|Url patter is not valid|dataTables/InvalidUrlPattern.xlsx|dataTables/InvalidUrlPattern.xlsx|"
+    }
+  ],
+  "line": 17,
+  "name": "Compare response when **File contains 1000 request urls ** from files : File1 \u003d dataTables/1000RequestFileA.xlsx and File2 \u003d  dataTables/1000RequestFileB.xlsx",
   "description": "",
-  "id": "to-compare-2api-responses(http/https);compare-response-of-requests-from-file1-and-file2;;2",
+  "id": "to-compare-2api-responses(http/https);compare-response-when-**\u003cscenario\u003e-**-from-files-:-file1-\u003d-\u003cfirstfile\u003e-and-file2-\u003d--\u003csecondfile\u003e;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -79,10 +133,10 @@ formatter.scenario({
 });
 formatter.step({
   "line": 5,
-  "name": "I read request urls from file \"dataTables/TestData.xlsx,dataTables/TestData2.xlsx\"",
+  "name": "I read request urls from file \"dataTables/1000RequestFileA.xlsx,dataTables/1000RequestFileB.xlsx\"",
   "matchedColumns": [
-    0,
-    1
+    1,
+    2
   ],
   "keyword": "Given "
 });
@@ -94,32 +148,104 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "dataTables/TestData.xlsx,dataTables/TestData2.xlsx",
+      "val": "dataTables/1000RequestFileA.xlsx,dataTables/1000RequestFileB.xlsx",
       "offset": 31
     }
   ],
   "location": "StepDefJson.readRequestUrl(String)"
 });
 formatter.result({
-  "duration": 421295062,
+  "duration": 468240609,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefCore.invokeRequestUrlsMultipleFiles()"
 });
-formatter.write("http://www.mocky.io/v2/5e0f6fe134000093002d8081 equals http://www.mocky.io/v2/5e0f6fe134000093002d8081");
-formatter.write("RESPONSE: {\n    \"resp\": \"API 1 response\"\n  }");
-formatter.write("http://www.mocky.io/v2/5e11d1203100006900593f68 equals http://www.mocky.io/v2/5e11d1203100006900593f68");
-formatter.write("RESPONSE: {\n\"id\": 110,    ‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬\n\"language\": \"Python\",\n\"price\": 1900,\n}");
-formatter.write("http://www.mocky.io/v2/5e11d1643100002700593f6c equals http://www.mocky.io/v2/5e11d1523100006900593f6a");
-formatter.write("RESPONSE: {\n   \"book\":[\n      {\n         \"id\":\"444\",\n         \"language\":\"C\",\n         \"edition\":\"First\",\n         \"author\":\"Dennis Ritchie \"\n      },\n      {\n         \"id\":\"555\",\n         \"language\":\"C++\",\n         \"edition\":\"second\",\n         \"author\":\" Bjarne Stroustrup \"\n      }\n   ]\n}  ");
-formatter.write("http://www.mocky.io/v2/5e11d18b3100005900593f6d not equals http://www.mocky.io/v2/5e11d1523100006900593f6a");
+formatter.write("http://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf");
+formatter.write("RESPONSE: {\n  \"visibility\" : true\n}");
+formatter.write("http://www.mocky.io/v2/5e11fedb3100002700593fc2 equals http://www.mocky.io/v2/5e11fedb3100002700593fc2");
+formatter.write("RESPONSE: {\n  \"error\" : \"Unauthorized true\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3");
+formatter.write("RESPONSE: {\n  \"error\" : \"Internal server error\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6");
+formatter.write("RESPONSE: {\n  \"error\" : \"No response\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf");
+formatter.write("RESPONSE: {\n  \"visibility\" : true\n}");
+formatter.write("http://www.mocky.io/v2/5e11fedb3100002700593fc2 equals http://www.mocky.io/v2/5e11fedb3100002700593fc2");
+formatter.write("RESPONSE: {\n  \"error\" : \"Unauthorized true\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3");
+formatter.write("RESPONSE: {\n  \"error\" : \"Internal server error\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6");
+formatter.write("RESPONSE: {\n  \"error\" : \"No response\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf");
+formatter.write("RESPONSE: {\n  \"visibility\" : true\n}");
+formatter.write("http://www.mocky.io/v2/5e11fedb3100002700593fc2 equals http://www.mocky.io/v2/5e11fedb3100002700593fc2");
+formatter.write("RESPONSE: {\n  \"error\" : \"Unauthorized true\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3");
+formatter.write("RESPONSE: {\n  \"error\" : \"Internal server error\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6");
+formatter.write("RESPONSE: {\n  \"error\" : \"No response\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf");
+formatter.write("RESPONSE: {\n  \"visibility\" : true\n}");
+formatter.write("http://www.mocky.io/v2/5e11fedb3100002700593fc2 equals http://www.mocky.io/v2/5e11fedb3100002700593fc2");
+formatter.write("RESPONSE: {\n  \"error\" : \"Unauthorized true\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3");
+formatter.write("RESPONSE: {\n  \"error\" : \"Internal server error\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6");
+formatter.write("RESPONSE: {\n  \"error\" : \"No response\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf");
+formatter.write("RESPONSE: {\n  \"visibility\" : true\n}");
+formatter.write("http://www.mocky.io/v2/5e11fedb3100002700593fc2 equals http://www.mocky.io/v2/5e11fedb3100002700593fc2");
+formatter.write("RESPONSE: {\n  \"error\" : \"Unauthorized true\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3");
+formatter.write("RESPONSE: {\n  \"error\" : \"Internal server error\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6");
+formatter.write("RESPONSE: {\n  \"error\" : \"No response\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf");
+formatter.write("RESPONSE: {\n  \"visibility\" : true\n}");
+formatter.write("http://www.mocky.io/v2/5e11fedb3100002700593fc2 equals http://www.mocky.io/v2/5e11fedb3100002700593fc2");
+formatter.write("RESPONSE: {\n  \"error\" : \"Unauthorized true\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3");
+formatter.write("RESPONSE: {\n  \"error\" : \"Internal server error\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6");
+formatter.write("RESPONSE: {\n  \"error\" : \"No response\"\n}");
+formatter.write("http://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe");
+formatter.write("RESPONSE: {\n  \"visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210\n}");
+formatter.write("http://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf");
+formatter.write("RESPONSE: {\n  \"visibility\" : true\n}");
 formatter.result({
-  "duration": 7618287955,
-  "status": "passed"
+  "duration": 30190986792,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c{\n  \"[error\" : \"Unauthorized true\"]\n}\u003e but was:\u003c{\n  \"[visibility\" : true,\n  \"popularity\" : \"immense\",\n  \"id\" : 210]\n}\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.comparator.StepDefs.StepDefCore.invokeRequestUrlsMultipleFiles(StepDefCore.java:106)\n\tat ✽.Then I invoke request urls provided in file and validate the response(src/test/resources/features/APIComprator.feature:6)\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 26303,
+  "duration": 35028,
   "status": "passed"
 });
 });

@@ -1,6 +1,7 @@
 package com.comparator.StepDefs;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.util.ArrayList;
@@ -96,15 +97,14 @@ public class StepDefCore {
 						response = Rest.getResource(urlMultipleFile, jsonContentHeader);
 						responseMultipleFile[j].add(response);
 					} catch (Exception e) {
-						scenario.write("Column Number: " + maxIteration + "Request url not found");
+						scenario.write("Column Number: " + maxIteration + " Request url not found");
 					}
 				}
 				for (int k = 0; k < responseMultipleFile.length; k++) {
 					for (int l = k + 1; l < responseMultipleFile.length; l++) {
 						try {
-							assertThat(JsonPath.parse(responseMultipleFile[k].get(k).getBody().asString())
-									.equals(JsonPath.parse(responseMultipleFile[l].get(k).getBody().asString())));
-							scenario.write(tempReqUrl[k] + " equals " + tempReqUrl[l]);
+							assertEquals(responseMultipleFile[k].get(k).getBody().asString(), responseMultipleFile[l].get(k).getBody().asString());
+						scenario.write(tempReqUrl[k] + " equals " + tempReqUrl[l]);
 							printFullResponse();
 						} catch (Exception e) {
 							scenario.write(tempReqUrl[k] + " not equals " + tempReqUrl[l]);

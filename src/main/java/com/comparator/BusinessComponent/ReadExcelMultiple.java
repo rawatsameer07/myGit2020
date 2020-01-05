@@ -1,5 +1,7 @@
 package com.comparator.BusinessComponent;
 
+import static org.junit.Assert.fail;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.ArrayList;
@@ -64,7 +66,8 @@ public class ReadExcelMultiple {
 					if (columnNumber > -1) {
 						sheet = workbook.getSheet(sheetNames.get(i));
 						break;
-					}
+					}else
+						fail("URL not found");
 				}
 				Iterator<Row> rowIterator = sheet.iterator();
 				headers = new ArrayList<String>();
@@ -103,7 +106,6 @@ public class ReadExcelMultiple {
 
 				ios.close();
 			} catch (Exception e) {
-				e.printStackTrace();
 				throw new GoException("Failed to read content from the --> " + files[j], e);
 			}
 

@@ -1,5 +1,7 @@
 package com.comparator.StepDefs;
 
+import static org.junit.Assert.assertNotNull;
+
 import com.comparator.BusinessComponent.GoException;
 import com.comparator.BusinessComponent.JsonUtils;
 import com.comparator.BusinessComponent.ReadExcelMultiple;
@@ -36,6 +38,7 @@ public class StepDefJson {
 		try {
 			ReadExcelMultiple.readContentByFromFile(value);
 		} catch (Exception e) {
+			scenario.write("Failed to read request urls from file or no url present");
 			throw new GoException("Failed to read request urls from file--> " + value, e);
 		}
 
