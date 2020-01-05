@@ -21,36 +21,17 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 5,
-      "value": "#\tGiven I set endpoint as \"http://www.mocky.io/\" with API \"v2/5e0f6fe134000093002d8081\""
-    },
-    {
-      "line": 6,
-      "value": "#\tAnd I invoke the GET API"
-    },
-    {
-      "line": 7,
-      "value": "#\tThen I verify the status code to be \"200\""
-    },
-    {
-      "line": 8,
-      "value": "#\tThen I print response"
-    }
-  ],
-  "line": 9,
+  "line": 5,
   "name": "I read request urls from file \"\u003cFirstFile\u003e,\u003cSecondFile\u003e\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "I invoke request urls provided in file and validate the response",
   "keyword": "Then "
 });
 formatter.examples({
-  "comments": [
-    {
-      "line": 10,
-      "value": "#"
-    }
-  ],
-  "line": 11,
+  "line": 9,
   "name": "",
   "description": "",
   "id": "to-compare-2api-responses(http/https);compare-response-of-requests-from-file1-and-file2;",
@@ -60,30 +41,30 @@ formatter.examples({
         "FirstFile",
         "SecondFile"
       ],
-      "line": 12,
+      "line": 10,
       "id": "to-compare-2api-responses(http/https);compare-response-of-requests-from-file1-and-file2;;1"
     },
     {
       "cells": [
-        "dataTables/APIFile_B.xlsx",
-        "dataTables/APIFile_B.xlsx"
+        "dataTables/TestData.xlsx",
+        "dataTables/TestData2.xlsx"
       ],
-      "line": 13,
+      "line": 11,
       "id": "to-compare-2api-responses(http/https);compare-response-of-requests-from-file1-and-file2;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 59282,
+  "duration": 109838077,
   "status": "passed"
 });
 formatter.before({
-  "duration": 96756726,
+  "duration": 45753,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
+  "line": 11,
   "name": "Compare response of requests from File1 and File2",
   "description": "",
   "id": "to-compare-2api-responses(http/https);compare-response-of-requests-from-file1-and-file2;;2",
@@ -97,43 +78,48 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 5,
-      "value": "#\tGiven I set endpoint as \"http://www.mocky.io/\" with API \"v2/5e0f6fe134000093002d8081\""
-    },
-    {
-      "line": 6,
-      "value": "#\tAnd I invoke the GET API"
-    },
-    {
-      "line": 7,
-      "value": "#\tThen I verify the status code to be \"200\""
-    },
-    {
-      "line": 8,
-      "value": "#\tThen I print response"
-    }
-  ],
-  "line": 9,
-  "name": "I read request urls from file \"dataTables/APIFile_B.xlsx,dataTables/APIFile_B.xlsx\"",
+  "line": 5,
+  "name": "I read request urls from file \"dataTables/TestData.xlsx,dataTables/TestData2.xlsx\"",
   "matchedColumns": [
     0,
     1
   ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "I invoke request urls provided in file and validate the response",
   "keyword": "Then "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "dataTables/APIFile_B.xlsx,dataTables/APIFile_B.xlsx",
+      "val": "dataTables/TestData.xlsx,dataTables/TestData2.xlsx",
       "offset": 31
     }
   ],
   "location": "StepDefJson.readRequestUrl(String)"
 });
 formatter.result({
-  "duration": 466688471,
+  "duration": 421295062,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefCore.invokeRequestUrlsMultipleFiles()"
+});
+formatter.write("http://www.mocky.io/v2/5e0f6fe134000093002d8081 equals http://www.mocky.io/v2/5e0f6fe134000093002d8081");
+formatter.write("RESPONSE: {\n    \"resp\": \"API 1 response\"\n  }");
+formatter.write("http://www.mocky.io/v2/5e11d1203100006900593f68 equals http://www.mocky.io/v2/5e11d1203100006900593f68");
+formatter.write("RESPONSE: {\n\"id\": 110,    ‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬\n\"language\": \"Python\",\n\"price\": 1900,\n}");
+formatter.write("http://www.mocky.io/v2/5e11d1643100002700593f6c equals http://www.mocky.io/v2/5e11d1523100006900593f6a");
+formatter.write("RESPONSE: {\n   \"book\":[\n      {\n         \"id\":\"444\",\n         \"language\":\"C\",\n         \"edition\":\"First\",\n         \"author\":\"Dennis Ritchie \"\n      },\n      {\n         \"id\":\"555\",\n         \"language\":\"C++\",\n         \"edition\":\"second\",\n         \"author\":\" Bjarne Stroustrup \"\n      }\n   ]\n}  ");
+formatter.write("http://www.mocky.io/v2/5e11d18b3100005900593f6d not equals http://www.mocky.io/v2/5e11d1523100006900593f6a");
+formatter.result({
+  "duration": 7618287955,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 26303,
   "status": "passed"
 });
 });

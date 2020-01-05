@@ -2,10 +2,6 @@ package com.comparator.BusinessComponent;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -21,15 +17,10 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ReadExcelMultiple {
 	public static XSSFWorkbook workbook = null;
 	public static XSSFSheet sheet = null;
-	public static List<String> requestUrls[];
+	public static List<String> requestUrls[] = null;
 	private static String filePath = System.getProperty("user.dir") + "/src/test/resources/";
-//
-//	public static void main(String args[]) throws Exception {
-//		readContentByFromFile("dataTables/APIFile_A.xlsx,dataTables/APIFile_B.xlsx");
-//
-//	}
 
-//This method will validate the text against the url pattern.
+//This method helps to validate the text against the url regular expression pattern.
 	public static boolean isUrl(String urlTest) {
 		Pattern p = Pattern.compile("^(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]");
 		Matcher m = p.matcher(urlTest);
@@ -37,7 +28,7 @@ public class ReadExcelMultiple {
 		return b;
 	}
 
-//Verifying the returned column has url or not. If its url than return the column index
+//Below method helps to identify the column number which has the url text.
 	private static int findColumn(XSSFSheet sheet, String cellContent) {
 		for (Row row : sheet) {
 			for (Cell cell : row) {
@@ -52,6 +43,7 @@ public class ReadExcelMultiple {
 		return -1;
 	}
 
+// Below methods reads request urls from multiple files by identifying the column from the sheet content having url.
 	public static void readContentByFromFile(String file) throws GoException {
 		String[] files = file.split(",");
 		requestUrls = new List[files.length];
@@ -74,9 +66,7 @@ public class ReadExcelMultiple {
 						break;
 					}
 				}
-				System.out.println(sheet.getSheetName() + "   " + columnNumber);
 				Iterator<Row> rowIterator = sheet.iterator();
-				// requestUrls = new ArrayList<String>();
 				headers = new ArrayList<String>();
 				while (rowIterator.hasNext()) {
 					Row row = rowIterator.next();
@@ -93,7 +83,6 @@ public class ReadExcelMultiple {
 								}
 							}
 						}
-
 						if (row.getRowNum() > 0 && cell.getColumnIndex() == columnNumber) {
 							switch (cell.getCellType()) {
 							case Cell.CELL_TYPE_NUMERIC:
@@ -105,6 +94,7 @@ public class ReadExcelMultiple {
 							default:
 								requestUrls[j].add("");
 								break;
+
 							}
 
 						}
@@ -114,8 +104,9 @@ public class ReadExcelMultiple {
 				ios.close();
 			} catch (Exception e) {
 				e.printStackTrace();
+				throw new GoException("Failed to read content from the --> " + files[j], e);
 			}
-			System.out.println(requestUrls[0].size());
+
 		}
 	}
 }

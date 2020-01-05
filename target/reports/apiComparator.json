@@ -6,59 +6,52 @@
         "before": [
           {
             "result": {
-              "duration": 59282,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefCore.before(Scenario)"
-            }
-          },
-          {
-            "result": {
-              "duration": 96756726,
+              "duration": 109838077,
               "status": "passed"
             },
             "match": {
               "location": "StepDefJson.before(Scenario)"
             }
+          },
+          {
+            "result": {
+              "duration": 45753,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefCore.before(Scenario)"
+            }
           }
         ],
-        "line": 13,
+        "line": 11,
         "name": "Compare response of requests from File1 and File2",
         "description": "",
         "id": "to-compare-2api-responses(http/https);compare-response-of-requests-from-file1-and-file2;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 26303,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefCore.afterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 466688471,
+              "duration": 421295062,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 5,
-                "value": "#\tGiven I set endpoint as \"http://www.mocky.io/\" with API \"v2/5e0f6fe134000093002d8081\""
-              },
-              {
-                "line": 6,
-                "value": "#\tAnd I invoke the GET API"
-              },
-              {
-                "line": 7,
-                "value": "#\tThen I verify the status code to be \"200\""
-              },
-              {
-                "line": 8,
-                "value": "#\tThen I print response"
-              }
-            ],
-            "line": 9,
-            "name": "I read request urls from file \"dataTables/APIFile_B.xlsx,dataTables/APIFile_B.xlsx\"",
+            "line": 5,
+            "name": "I read request urls from file \"dataTables/TestData.xlsx,dataTables/TestData2.xlsx\"",
             "match": {
               "arguments": [
                 {
-                  "val": "dataTables/APIFile_B.xlsx,dataTables/APIFile_B.xlsx",
+                  "val": "dataTables/TestData.xlsx,dataTables/TestData2.xlsx",
                   "offset": 31
                 }
               ],
@@ -68,6 +61,27 @@
               0,
               1
             ],
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "http://www.mocky.io/v2/5e0f6fe134000093002d8081 equals http://www.mocky.io/v2/5e0f6fe134000093002d8081",
+              "RESPONSE: {\n    \"resp\": \"API 1 response\"\n  }",
+              "http://www.mocky.io/v2/5e11d1203100006900593f68 equals http://www.mocky.io/v2/5e11d1203100006900593f68",
+              "RESPONSE: {\n\"id\": 110,    ‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬\n\"language\": \"Python\",\n\"price\": 1900,\n}",
+              "http://www.mocky.io/v2/5e11d1643100002700593f6c equals http://www.mocky.io/v2/5e11d1523100006900593f6a",
+              "RESPONSE: {\n   \"book\":[\n      {\n         \"id\":\"444\",\n         \"language\":\"C\",\n         \"edition\":\"First\",\n         \"author\":\"Dennis Ritchie \"\n      },\n      {\n         \"id\":\"555\",\n         \"language\":\"C++\",\n         \"edition\":\"second\",\n         \"author\":\" Bjarne Stroustrup \"\n      }\n   ]\n}  ",
+              "http://www.mocky.io/v2/5e11d18b3100005900593f6d not equals http://www.mocky.io/v2/5e11d1523100006900593f6a"
+            ],
+            "result": {
+              "duration": 7618287955,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I invoke request urls provided in file and validate the response",
+            "match": {
+              "location": "StepDefCore.invokeRequestUrlsMultipleFiles()"
+            },
             "keyword": "Then "
           }
         ],

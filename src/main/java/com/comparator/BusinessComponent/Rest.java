@@ -12,7 +12,7 @@ import io.restassured.response.Response;
 public class Rest {
 	private static final String JSON_TYPE = "application/json";
 	private static final Logger LOGGER = LogManager.getLogger(Rest.class);
-	
+	// Below method is use to invoke the request urls retrieved from the files.
 	public static final Response getResource(final String url, Headers jsonContentHeader) throws GoException {
 	try {
 		if (jsonContentHeader != null) {
@@ -22,7 +22,7 @@ public class Rest {
 	}
 	catch(Exception e)
 		{
-		throw new GoException("Response not retrieved",e);
+		throw new GoException("Failed to fetch Response",e);
 		}
 	}
 }
