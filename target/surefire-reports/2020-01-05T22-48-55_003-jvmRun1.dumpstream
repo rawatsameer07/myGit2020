@@ -1,0 +1,981 @@
+# Created at 2020-01-05T22:49:04.817
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-01-05T22:49:04.986
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff09310000c956593fc3
+
+
+# Created at 2020-01-05T22:49:05.339
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3[0m
+
+
+# Created at 2020-01-05T22:49:05.340
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "Internal server error"
+}[0m
+
+
+# Created at 2020-01-05T22:49:05.341
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:05.686
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:06.039
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6[0m
+
+
+# Created at 2020-01-05T22:49:06.040
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "No response"
+}[0m
+
+
+# Created at 2020-01-05T22:49:06.040
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:06.410
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:06.785
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2[0m
+
+
+# Created at 2020-01-05T22:49:06.785
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:06.786
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:07.161
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:07.519
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe[0m
+
+
+# Created at 2020-01-05T22:49:07.519
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:07.520
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:07.865
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:08.207
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf[0m
+
+
+# Created at 2020-01-05T22:49:08.208
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true
+}[0m
+
+
+# Created at 2020-01-05T22:49:08.208
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fedb3100002700593fc2
+
+
+# Created at 2020-01-05T22:49:08.552
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fedb3100002700593fc2
+
+
+# Created at 2020-01-05T22:49:08.918
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fedb3100002700593fc2 equals http://www.mocky.io/v2/5e11fedb3100002700593fc2[0m
+
+
+# Created at 2020-01-05T22:49:08.919
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "Unauthorized true"
+}[0m
+
+
+# Created at 2020-01-05T22:49:08.919
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff09310000c956593fc3
+
+
+# Created at 2020-01-05T22:49:09.259
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff09310000c956593fc3
+
+
+# Created at 2020-01-05T22:49:09.611
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3[0m
+
+
+# Created at 2020-01-05T22:49:09.612
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "Internal server error"
+}[0m
+
+
+# Created at 2020-01-05T22:49:09.612
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:09.964
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:10.330
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6[0m
+
+
+# Created at 2020-01-05T22:49:10.331
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "No response"
+}[0m
+
+
+# Created at 2020-01-05T22:49:10.332
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:10.678
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:11.019
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2[0m
+
+
+# Created at 2020-01-05T22:49:11.020
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:11.020
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:11.360
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:11.710
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe[0m
+
+
+# Created at 2020-01-05T22:49:11.710
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:11.711
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:12.069
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:12.412
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf[0m
+
+
+# Created at 2020-01-05T22:49:12.413
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true
+}[0m
+
+
+# Created at 2020-01-05T22:49:12.413
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fedb3100002700593fc2
+
+
+# Created at 2020-01-05T22:49:12.771
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fedb3100002700593fc2
+
+
+# Created at 2020-01-05T22:49:13.126
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fedb3100002700593fc2 equals http://www.mocky.io/v2/5e11fedb3100002700593fc2[0m
+
+
+# Created at 2020-01-05T22:49:13.127
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "Unauthorized true"
+}[0m
+
+
+# Created at 2020-01-05T22:49:13.127
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff09310000c956593fc3
+
+
+# Created at 2020-01-05T22:49:13.491
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff09310000c956593fc3
+
+
+# Created at 2020-01-05T22:49:13.859
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3[0m
+
+
+# Created at 2020-01-05T22:49:13.860
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "Internal server error"
+}[0m
+
+
+# Created at 2020-01-05T22:49:13.860
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:14.207
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:14.561
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6[0m
+
+
+# Created at 2020-01-05T22:49:14.561
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "No response"
+}[0m
+
+
+# Created at 2020-01-05T22:49:14.562
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:14.935
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:15.293
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2[0m
+
+
+# Created at 2020-01-05T22:49:15.294
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:15.294
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:15.649
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:15.989
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe[0m
+
+
+# Created at 2020-01-05T22:49:15.989
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:15.990
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:17.389
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:17.745
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf[0m
+
+
+# Created at 2020-01-05T22:49:17.745
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true
+}[0m
+
+
+# Created at 2020-01-05T22:49:17.746
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fedb3100002700593fc2
+
+
+# Created at 2020-01-05T22:49:18.108
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fedb3100002700593fc2
+
+
+# Created at 2020-01-05T22:49:18.462
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fedb3100002700593fc2 equals http://www.mocky.io/v2/5e11fedb3100002700593fc2[0m
+
+
+# Created at 2020-01-05T22:49:18.462
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "Unauthorized true"
+}[0m
+
+
+# Created at 2020-01-05T22:49:18.463
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff09310000c956593fc3
+
+
+# Created at 2020-01-05T22:49:18.816
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff09310000c956593fc3
+
+
+# Created at 2020-01-05T22:49:19.169
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3[0m
+
+
+# Created at 2020-01-05T22:49:19.170
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "Internal server error"
+}[0m
+
+
+# Created at 2020-01-05T22:49:19.170
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:19.544
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:19.903
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6[0m
+
+
+# Created at 2020-01-05T22:49:19.903
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "No response"
+}[0m
+
+
+# Created at 2020-01-05T22:49:19.904
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:20.264
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:20.623
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2[0m
+
+
+# Created at 2020-01-05T22:49:20.623
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:20.624
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:20.966
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:21.329
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe[0m
+
+
+# Created at 2020-01-05T22:49:21.329
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:21.330
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:21.689
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:22.066
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf[0m
+
+
+# Created at 2020-01-05T22:49:22.066
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true
+}[0m
+
+
+# Created at 2020-01-05T22:49:22.067
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fedb3100002700593fc2
+
+
+# Created at 2020-01-05T22:49:22.413
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fedb3100002700593fc2
+
+
+# Created at 2020-01-05T22:49:22.775
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fedb3100002700593fc2 equals http://www.mocky.io/v2/5e11fedb3100002700593fc2[0m
+
+
+# Created at 2020-01-05T22:49:22.776
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "Unauthorized true"
+}[0m
+
+
+# Created at 2020-01-05T22:49:22.776
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff09310000c956593fc3
+
+
+# Created at 2020-01-05T22:49:23.119
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff09310000c956593fc3
+
+
+# Created at 2020-01-05T22:49:23.466
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3[0m
+
+
+# Created at 2020-01-05T22:49:23.466
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "Internal server error"
+}[0m
+
+
+# Created at 2020-01-05T22:49:23.467
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:23.864
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:24.313
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6[0m
+
+
+# Created at 2020-01-05T22:49:24.314
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "No response"
+}[0m
+
+
+# Created at 2020-01-05T22:49:24.315
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:24.737
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:25.090
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2[0m
+
+
+# Created at 2020-01-05T22:49:25.090
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:25.091
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:25.451
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:25.807
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe[0m
+
+
+# Created at 2020-01-05T22:49:25.808
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:25.808
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:26.157
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:26.499
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf[0m
+
+
+# Created at 2020-01-05T22:49:26.499
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true
+}[0m
+
+
+# Created at 2020-01-05T22:49:26.500
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fedb3100002700593fc2
+
+
+# Created at 2020-01-05T22:49:26.847
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fedb3100002700593fc2
+
+
+# Created at 2020-01-05T22:49:27.226
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fedb3100002700593fc2 equals http://www.mocky.io/v2/5e11fedb3100002700593fc2[0m
+
+
+# Created at 2020-01-05T22:49:27.226
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "Unauthorized true"
+}[0m
+
+
+# Created at 2020-01-05T22:49:27.226
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff09310000c956593fc3
+
+
+# Created at 2020-01-05T22:49:27.598
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff09310000c956593fc3
+
+
+# Created at 2020-01-05T22:49:27.950
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff09310000c956593fc3 equals http://www.mocky.io/v2/5e11ff09310000c956593fc3[0m
+
+
+# Created at 2020-01-05T22:49:27.951
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "Internal server error"
+}[0m
+
+
+# Created at 2020-01-05T22:49:27.951
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:28.304
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11ff36310000cc4d593fc6
+
+
+# Created at 2020-01-05T22:49:28.654
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11ff36310000cc4d593fc6 equals http://www.mocky.io/v2/5e11ff36310000cc4d593fc6[0m
+
+
+# Created at 2020-01-05T22:49:28.655
+Unexpected IOException with stream: [34mRESPONSE: {
+  "error" : "No response"
+}[0m
+
+
+# Created at 2020-01-05T22:49:28.655
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:29.010
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:29.362
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11f6e83100003700593fb2 equals http://www.mocky.io/v2/5e11f6e83100003700593fb2[0m
+
+
+# Created at 2020-01-05T22:49:29.362
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:29.363
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:29.720
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe463100005a37593fbe
+
+
+# Created at 2020-01-05T22:49:30.079
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe463100005a37593fbe equals http://www.mocky.io/v2/5e11fe463100005a37593fbe[0m
+
+
+# Created at 2020-01-05T22:49:30.080
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true,
+  "popularity" : "immense",
+  "id" : 210
+}[0m
+
+
+# Created at 2020-01-05T22:49:30.080
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:31.456
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fe74310000c74a593fbf
+
+
+# Created at 2020-01-05T22:49:31.814
+Unexpected IOException with stream: [34mhttp://www.mocky.io/v2/5e11fe74310000c74a593fbf equals http://www.mocky.io/v2/5e11fe74310000c74a593fbf[0m
+
+
+# Created at 2020-01-05T22:49:31.814
+Unexpected IOException with stream: [34mRESPONSE: {
+  "visibility" : true
+}[0m
+
+
+# Created at 2020-01-05T22:49:31.815
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11fedb3100002700593fc2
+
+
+# Created at 2020-01-05T22:49:32.172
+Unexpected IOException with stream: http://www.mocky.io/v2/5e11f6e83100003700593fb2
+
+
+# Created at 2020-01-05T22:49:32.527
+Unexpected IOException: 5,1,| File contains 1000 request urls | dataTables/1000RequestFileA.xlsx | dataTables/1000RequestFileB.xlsx |,Then I invoke request urls provided in file and validate the response(| File contains 1000 request urls | dataTables/1000RequestFileA.xlsx | dataTables/1000RequestFileB.xlsx |),null,null,null
+
+
+# Created at 2020-01-05T22:49:32.527
+Unexpected IOException: 8,1,| File contains 1000 request urls | dataTables/1000RequestFileA.xlsx | dataTables/1000RequestFileB.xlsx |,Then I invoke request urls provided in file and validate the response(| File contains 1000 request urls | dataTables/1000RequestFileA.xlsx | dataTables/1000RequestFileB.xlsx |),null,expected:<{\000A  "[error" : "Unauthorized true"]\000A}> but was:<{\000A  "[visibility" : true\002C\000A  "popularity" : "immense"\002C\000A  "id" : 210]\000A}>,null,expected:<{\000A  "[error" : "Unauthorized true"]\000A}> but was:<{\000A  "[visibility" : true\002C\000A  "popularity" : "immense"\002C\000A  "id" : 210]\000A}>,expected:<{\000A  "[error" : "Unauthorized true"]\000A}> but was:<{\000A  "[visibility" : true\002C\000A  "popularity" : "immense"\002C\000A  "id" : 210]\000A}>,org.junit.ComparisonFailure: \000Aexpected:<{\000A  "[error" : "Unauthorized true"]\000A}> but was:<{\000A  "[visibility" : true\002C\000A  "popularity" : "immense"\002C\000A  "id" : 210]\000A}>\000A
+
+
+# Created at 2020-01-05T22:49:32.528
+Unexpected IOException: 8,1,| File contains 1000 request urls | dataTables/1000RequestFileA.xlsx | dataTables/1000RequestFileB.xlsx |,| File contains 1000 request urls | dataTables/1000RequestFileA.xlsx | dataTables/1000RequestFileB.xlsx |,null,expected:<{\000A  "[error" : "Unauthorized true"]\000A}> but was:<{\000A  "[visibility" : true\002C\000A  "popularity" : "immense"\002C\000A  "id" : 210]\000A}>,null,expected:<{\000A  "[error" : "Unauthorized true"]\000A}> but was:<{\000A  "[visibility" : true\002C\000A  "popularity" : "immense"\002C\000A  "id" : 210]\000A}>,expected:<{\000A  "[error" : "Unauthorized true"]\000A}> but was:<{\000A  "[visibility" : true\002C\000A  "popularity" : "immense"\002C\000A  "id" : 210]\000A}>,org.junit.ComparisonFailure: \000Aexpected:<{\000A  "[error" : "Unauthorized true"]\000A}> but was:<{\000A  "[visibility" : true\002C\000A  "popularity" : "immense"\002C\000A  "id" : 210]\000A}>\000A
+
+
+# Created at 2020-01-05T22:49:32.529
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.529
+Unexpected IOException with stream:   @compare
+
+
+# Created at 2020-01-05T22:49:32.529
+Unexpected IOException with stream:   Scenario Outline: Compare response when **File contains 1000 request urls ** from files : File1 = dataTables/1000RequestFileA.xlsx and File2 =  dataTables/1000RequestFileB.xlsx [90m# src/test/resources/features/APIComprator.feature:17[0m
+
+
+# Created at 2020-01-05T22:49:32.530
+Unexpected IOException with stream:     [32mGiven [0m[32mI read request urls from file "[0m[32m[1mdataTables/1000RequestFileA.xlsx,dataTables/1000RequestFileB.xlsx[0m[32m"[0m                                                                        [90m# StepDefJson.readRequestUrl(String)[0m
+
+
+# Created at 2020-01-05T22:49:32.530
+Unexpected IOException with stream:     [31mThen [0m[31mI invoke request urls provided in file and validate the response[0m                                                                                                          [90m# StepDefCore.invokeRequestUrlsMultipleFiles()[0m
+
+
+# Created at 2020-01-05T22:49:32.530
+Unexpected IOException with stream:       [31morg.junit.ComparisonFailure: expected:<{
+        "[error" : "Unauthorized true"]
+      }> but was:<{
+        "[visibility" : true,
+        "popularity" : "immense",
+        "id" : 210]
+      }>
+      	at org.junit.Assert.assertEquals(Assert.java:115)
+      	at org.junit.Assert.assertEquals(Assert.java:144)
+      	at com.comparator.StepDefs.StepDefCore.invokeRequestUrlsMultipleFiles(StepDefCore.java:106)
+      	at ✽.Then I invoke request urls provided in file and validate the response(src/test/resources/features/APIComprator.feature:6)
+      [0m
+
+
+# Created at 2020-01-05T22:49:32.536
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.537
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created at 2020-01-05T22:49:32.537
+Unexpected IOException with stream: [31msrc/test/resources/features/APIComprator.feature:13 [0m
+
+# Created at 2020-01-05T22:49:32.537
+Unexpected IOException with stream: # Scenario Outline: Compare response when **Files have different request urls different response ** from files : File1 = dataTables/FileAB_identical.xlsx and File2 =  dataTables/DifferentResponse.xlsx
+
+
+# Created at 2020-01-05T22:49:32.538
+Unexpected IOException with stream: [31msrc/test/resources/features/APIComprator.feature:15 [0m
+
+# Created at 2020-01-05T22:49:32.538
+Unexpected IOException with stream: # Scenario Outline: Compare response when **No urls are present in both file ** from files : File1 = dataTables/BlankFileB.xlsx and File2 =  dataTables/BlankFileB.xlsx
+
+
+# Created at 2020-01-05T22:49:32.538
+Unexpected IOException with stream: [31msrc/test/resources/features/APIComprator.feature:16 [0m
+
+# Created at 2020-01-05T22:49:32.538
+Unexpected IOException with stream: # Scenario Outline: Compare response when **Url patter is not valid ** from files : File1 = dataTables/InvalidUrlPattern.xlsx and File2 =  dataTables/InvalidUrlPattern.xlsx
+
+
+# Created at 2020-01-05T22:49:32.539
+Unexpected IOException with stream: [31msrc/test/resources/features/APIComprator.feature:17 [0m
+
+# Created at 2020-01-05T22:49:32.539
+Unexpected IOException with stream: # Scenario Outline: Compare response when **File contains 1000 request urls ** from files : File1 = dataTables/1000RequestFileA.xlsx and File2 =  dataTables/1000RequestFileB.xlsx
+
+
+# Created at 2020-01-05T22:49:32.539
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.539
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-05T22:49:32.540
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-01-05T22:49:32.540
+Unexpected IOException with stream: [31m4 failed[0m
+
+# Created at 2020-01-05T22:49:32.540
+Unexpected IOException with stream: , 
+
+# Created at 2020-01-05T22:49:32.540
+Unexpected IOException with stream: [32m3 passed[0m
+
+# Created at 2020-01-05T22:49:32.540
+Unexpected IOException with stream: )
+
+
+# Created at 2020-01-05T22:49:32.541
+Unexpected IOException with stream: 14
+
+# Created at 2020-01-05T22:49:32.541
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-01-05T22:49:32.541
+Unexpected IOException with stream: [31m4 failed[0m
+
+# Created at 2020-01-05T22:49:32.542
+Unexpected IOException with stream: , 
+
+# Created at 2020-01-05T22:49:32.542
+Unexpected IOException with stream: [36m2 skipped[0m
+
+# Created at 2020-01-05T22:49:32.542
+Unexpected IOException with stream: , 
+
+# Created at 2020-01-05T22:49:32.542
+Unexpected IOException with stream: [32m8 passed[0m
+
+# Created at 2020-01-05T22:49:32.543
+Unexpected IOException with stream: )
+
+
+# Created at 2020-01-05T22:49:32.543
+Unexpected IOException with stream: 0m
+
+# Created at 2020-01-05T22:49:32.543
+Unexpected IOException with stream: 36.894s
+
+
+# Created at 2020-01-05T22:49:32.544
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.544
+Unexpected IOException with stream: org.junit.ComparisonFailure: expected:<{
+  "[visibility" : true,
+  "popularity" : "immense",
+  "id" : 210]
+}> but was:<{
+  "[error" : "Unauthorized true"]
+}>
+
+# Created at 2020-01-05T22:49:32.544
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.544
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:115)
+
+# Created at 2020-01-05T22:49:32.545
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.545
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:144)
+
+# Created at 2020-01-05T22:49:32.545
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.545
+Unexpected IOException with stream: 	at com.comparator.StepDefs.StepDefCore.invokeRequestUrlsMultipleFiles(StepDefCore.java:106)
+
+# Created at 2020-01-05T22:49:32.546
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.546
+Unexpected IOException with stream: 	at ✽.Then I invoke request urls provided in file and validate the response(src/test/resources/features/APIComprator.feature:6)
+
+# Created at 2020-01-05T22:49:32.546
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.546
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.546
+Unexpected IOException with stream: java.lang.AssertionError: URL not found
+
+# Created at 2020-01-05T22:49:32.547
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.547
+Unexpected IOException with stream: 	at org.junit.Assert.fail(Assert.java:88)
+
+# Created at 2020-01-05T22:49:32.547
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.547
+Unexpected IOException with stream: 	at com.comparator.BusinessComponent.ReadExcelMultiple.readContentByFromFile(ReadExcelMultiple.java:69)
+
+# Created at 2020-01-05T22:49:32.548
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.548
+Unexpected IOException with stream: 	at com.comparator.StepDefs.StepDefJson.readRequestUrl(StepDefJson.java:39)
+
+# Created at 2020-01-05T22:49:32.548
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.548
+Unexpected IOException with stream: 	at ✽.Given I read request urls from file "dataTables/BlankFileB.xlsx,dataTables/BlankFileB.xlsx"(src/test/resources/features/APIComprator.feature:5)
+
+# Created at 2020-01-05T22:49:32.548
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.549
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.549
+Unexpected IOException with stream: java.lang.AssertionError: URL not found
+
+# Created at 2020-01-05T22:49:32.549
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.549
+Unexpected IOException with stream: 	at org.junit.Assert.fail(Assert.java:88)
+
+# Created at 2020-01-05T22:49:32.549
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.550
+Unexpected IOException with stream: 	at com.comparator.BusinessComponent.ReadExcelMultiple.readContentByFromFile(ReadExcelMultiple.java:69)
+
+# Created at 2020-01-05T22:49:32.550
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.550
+Unexpected IOException with stream: 	at com.comparator.StepDefs.StepDefJson.readRequestUrl(StepDefJson.java:39)
+
+# Created at 2020-01-05T22:49:32.550
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.551
+Unexpected IOException with stream: 	at ✽.Given I read request urls from file "dataTables/InvalidUrlPattern.xlsx,dataTables/InvalidUrlPattern.xlsx"(src/test/resources/features/APIComprator.feature:5)
+
+# Created at 2020-01-05T22:49:32.551
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.551
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.551
+Unexpected IOException with stream: org.junit.ComparisonFailure: expected:<{
+  "[error" : "Unauthorized true"]
+}> but was:<{
+  "[visibility" : true,
+  "popularity" : "immense",
+  "id" : 210]
+}>
+
+# Created at 2020-01-05T22:49:32.551
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.552
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:115)
+
+# Created at 2020-01-05T22:49:32.552
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.552
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:144)
+
+# Created at 2020-01-05T22:49:32.552
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.553
+Unexpected IOException with stream: 	at com.comparator.StepDefs.StepDefCore.invokeRequestUrlsMultipleFiles(StepDefCore.java:106)
+
+# Created at 2020-01-05T22:49:32.553
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.553
+Unexpected IOException with stream: 	at ✽.Then I invoke request urls provided in file and validate the response(src/test/resources/features/APIComprator.feature:6)
+
+# Created at 2020-01-05T22:49:32.553
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.553
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-05T22:49:32.554
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.comparator.AppTestRunner.AppTestRunner,null,null,null
+
+

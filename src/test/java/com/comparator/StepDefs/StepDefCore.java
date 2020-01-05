@@ -93,7 +93,6 @@ public class StepDefCore {
 						responseMultipleFile[j] = new ArrayList<Response>();
 						urlMultipleFile = ReadExcelMultiple.requestUrls[j].get(i);
 						tempReqUrl[j] = urlMultipleFile;
-						System.out.println(urlMultipleFile);
 						response = Rest.getResource(urlMultipleFile, jsonContentHeader);
 						responseMultipleFile[j].add(response);
 					} catch (Exception e) {

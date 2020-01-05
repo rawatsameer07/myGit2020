@@ -1,5 +1,5 @@
 echo "starting script"
-cd /Users/sameerrawat/eclipse-workspace/comparatorLibrary
+cd ./comparatorLibrary
 echo "starting script2"
 mvn test
 echo "ending script"

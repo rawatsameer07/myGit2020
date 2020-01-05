@@ -3,7 +3,7 @@ package com.comparator.BusinessComponent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-
+import com.comparator.BusinessComponent.GoException;
 import java.io.InputStream;
 import java.util.Date;
 import java.util.Properties;
