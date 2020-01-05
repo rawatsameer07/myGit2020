@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 59282,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefCore.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 96756726,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefJson.before(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Compare response of requests from File1 and File2",
+        "description": "",
+        "id": "to-compare-2api-responses(http/https);compare-response-of-requests-from-file1-and-file2;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 466688471,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#\tGiven I set endpoint as \"http://www.mocky.io/\" with API \"v2/5e0f6fe134000093002d8081\""
+              },
+              {
+                "line": 6,
+                "value": "#\tAnd I invoke the GET API"
+              },
+              {
+                "line": 7,
+                "value": "#\tThen I verify the status code to be \"200\""
+              },
+              {
+                "line": 8,
+                "value": "#\tThen I print response"
+              }
+            ],
+            "line": 9,
+            "name": "I read request urls from file \"dataTables/APIFile_B.xlsx,dataTables/APIFile_B.xlsx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dataTables/APIFile_B.xlsx,dataTables/APIFile_B.xlsx",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefJson.readRequestUrl(String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@compare"
+          }
+        ]
+      }
+    ],
+    "name": "To compare 2API responses(HTTP/HTTPS)",
+    "description": "",
+    "id": "to-compare-2api-responses(http/https)",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/APIComprator.feature"
+  }
+]
